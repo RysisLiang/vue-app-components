@@ -10,7 +10,14 @@
     "build:lib": "vue-cli-service build --target lib --name vue-app-components --dest lib src/index.js",
     "lint": "vue-cli-service lint"
   },
-  "main": "lib/vue-app-components.js",
+  "main": "lib/vue-app-components.umd.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:RysisLiang/vue-app-components.git"
+  },
+  "bugs": {
+    "url": "https://https://github.com/RysisLiang/vue-app-components/issues"
+  },
   "dependencies": {
     "core-js": "^3.4.3",
     "vue": "^2.6.10"
