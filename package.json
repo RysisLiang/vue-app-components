@@ -16,7 +16,7 @@
     "url": "git@github.com:RysisLiang/vue-app-components.git"
   },
   "bugs": {
-    "url": "https://https://github.com/RysisLiang/vue-app-components/issues"
+    "url": "https://github.com/RysisLiang/vue-app-components/issues"
   },
   "dependencies": {
     "core-js": "^3.4.3",

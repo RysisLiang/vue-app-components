@@ -41,7 +41,6 @@ const Toast = (text, options) => {
     Vue.nextTick(() => {
       instance.show()
     })
-    console.log(`id=${instance.id}`)
     return instance
   }
 }

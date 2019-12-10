@@ -63,7 +63,6 @@ export default {
 
     startTimer() {
       if (this.delay > 0) {
-        console.log(`startTimer`)
         this.timer = setTimeout(() => {
           this.close()
         }, this.delay)

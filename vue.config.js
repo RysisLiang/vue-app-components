@@ -4,7 +4,6 @@ module.exports = {
   //   index: {
   //     entry: 'src/index.js',
   //     template: 'public/index.html',
-  //     // 输出文件名
   //     filename: 'index.html'
   //   }
   // },

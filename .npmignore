@@ -1,0 +1,24 @@
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+*.iws
+workspace.xml
+tasks.xml
+.idea
+.idea/
+
+
+#node specific
+node_modules
+npm-debug.log
+yarn-error.log
+
+__tests__
+__tests__/
+
+
+media
+media/
