@@ -1,12 +1,16 @@
 {
-  "name": "vue-app-component",
+  "name": "vue-app-components",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "Rysis <liangxiao159@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:lib": "vue-cli-service build --target lib --name vue-app-components --dest lib src/index.js",
     "lint": "vue-cli-service lint"
   },
+  "main": "lib/vue-app-components.js",
   "dependencies": {
     "core-js": "^3.4.3",
     "vue": "^2.6.10"
