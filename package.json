@@ -2,11 +2,11 @@
   "name": "vue-app-components",
   "version": "0.1.1",
   "private": false,
+  "description": "This is an like app-style components for the vue project",
   "author": "Rysis <liangxiao159@gmail.com>",
   "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
     "build:lib": "vue-cli-service build --target lib --name vue-app-components --dest lib src/index.js",
     "lint": "vue-cli-service lint"
   },
@@ -15,6 +15,13 @@
     "type": "git",
     "url": "git@github.com:RysisLiang/vue-app-components.git"
   },
+  "keywords": [
+    "vue",
+    "H5 components",
+    "H5web",
+    "toast",
+    "dialog"
+  ],
   "bugs": {
     "url": "https://github.com/RysisLiang/vue-app-components/issues"
   },

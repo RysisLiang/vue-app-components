@@ -12,7 +12,7 @@ const install = function(Vue, opts = {}) {
       Vue.component(component.name, component)
   });
 
-  Vue.prototype.$vaToast = vaToast;
+  Vue.prototype.$vaToast = vaToast
 
 }
 
